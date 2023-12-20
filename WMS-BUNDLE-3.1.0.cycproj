@@ -1,0 +1,50 @@
+{
+  "projectMetaData" : {
+    "name" : "WMS-BUNDLE-3.1.0",
+    "compatibilityVersion" : "2.3.0"
+  },
+  "settings" : {
+    "LocalReportOutputFormat" : "HTML",
+    "FeatureFailureStrategy" : "SCENARIO",
+    "StepDelay" : 300,
+    "DefaultTerminalConnectWithin" : 90000,
+    "NonActionStepDelay" : 0,
+    "CaptureImageWidth" : 40,
+    "CaptureImageHeight" : 40,
+    "CloudGrpcHost" : "",
+    "DefaultWithinGui" : 10000,
+    "KeystrokeDelay" : 0,
+    "CloudProjectName" : "",
+    "SSLValidation" : "Default",
+    "KeyMappingFile" : null,
+    "LocalReportCustomPath" : null,
+    "VariableBlackListEnabled" : false,
+    "GroupTestFailureStrategy" : "RESTART_WORKER",
+    "ControlVisPaste" : true,
+    "DefaultWithinTerminal" : 100,
+    "OnceWaitTime" : 30000,
+    "TruststorePath" : null,
+    "ImageMatchCorrelation" : 90,
+    "ImageMatchAllDisplays" : true,
+    "TerminalSendSingleLF" : false,
+    "CloudProjectId" : "",
+    "StoredConnections" : [ {
+      "connectionName" : "ABB",
+      "connectionType" : "MOCA",
+      "url" : "https://bc60-abb-wms-app-np1.jdadelivers.com/service"
+    } ],
+    "RemoteWebDriverHeadlessKey" : true,
+    "WaitDurationBeforeRestart" : 5000,
+    "MinimizeCycleDuringTest" : false,
+    "LocalReport" : "Default",
+    "TerminalSteadyStateDuration" : 1000,
+    "SkipMocaCertValidation" : false,
+    "PlaylistFailureStrategy" : "NONE",
+    "CloudTenantName" : "",
+    "CloudGrpcPort" : "",
+    "VariableBlackList" : [ ],
+    "CloudClientId" : "",
+    "VariableBlackListMask" : "********",
+    "SaveMatchedImages" : false
+  }
+}

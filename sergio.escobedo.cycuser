@@ -1,0 +1,48 @@
+{
+  "additionalData" : {
+    "openTabs" : [ {
+      "filePath" : "C:\\Users\\sergio.escobedo\\Downloads\\WMS-BUNDLE-3.1.0\\Test Cases\\Base\\Inbound\\BASE-RCV-4010 Mobile Inbound Receiving.feature"
+    }, {
+      "filePath" : "C:\\Users\\sergio.escobedo\\Downloads\\WMS-BUNDLE-3.1.0\\Utilities\\Base\\Mobile\\Mobile Utilities.feature"
+    } ]
+  },
+  "settings" : {
+    "EmailUsername" : "",
+    "DatastoreUrl" : "",
+    "WriteCloudDatastore" : false,
+    "CustomChromeBrowserLocation" : "C:\\Users\\sergio.escobedo",
+    "DatastoreName" : "",
+    "SenderEmailAddress" : "",
+    "StoredCredentials" : [ {
+      "credentialsName" : "KARLAMARTINEZ",
+      "username" : "KARLAMARTINEZ",
+      "password" : "Welcome1"
+    } ],
+    "SendEmailSummary" : false,
+    "CloseBrowserAfterScenario" : false,
+    "DatastorePassword" : "",
+    "WinAppDriverForceCloseLocalApp" : false,
+    "IEDriverLocation" : "C:\\Users\\sergio.escobedo",
+    "EdgeDriverLocation" : "C:\\Users\\sergio.escobedo",
+    "UseCustomChromeLocation" : false,
+    "CloudRefreshToken" : "",
+    "EmailHost" : "",
+    "CloseBrowserOnCycleExit" : false,
+    "WinAppDriverLocation" : "C:\\Program Files (x86)\\Windows Application Driver\\WinAppDriver.exe",
+    "EmailProtocol" : "SSL",
+    "WebScreenshots" : true,
+    "DatastoreUsername" : "",
+    "EmailPassword" : "",
+    "ProduceLocalReport" : false,
+    "IncludeStepsInGroupTestReports" : false,
+    "RecipientEmail" : "",
+    "ChromeDriverLocation" : "C:\\Drivers\\chromedriver-win64 (4)\\chromedriver-win64\\chromedriver.exe",
+    "KnownHostsLocation" : null,
+    "WriteToDatastore" : false,
+    "OutputDirectory" : "Output",
+    "EmailPort" : 0,
+    "DatastoreType" : "",
+    "DatastoreConnection" : "JDBC",
+    "ProduceLocalCsv" : false
+  }
+}

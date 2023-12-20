@@ -1,0 +1,2 @@
+trlr_num,inv_num,yard_loc,invtyp,prtnum,lotnum,rcvsts,ap_sts,qa_sts,expqty,supnum,rec_loc,dep_loc,rcv_qty,putaway_method,asn_flg,validate_loc,actcod,rcv_prtnum,lpn,expect_discrepancies,revlvl
+TRLR0400970038198660,04009700381986602,DK021,Inbound Order,3115,,AP,,,10,0007,,10,10,1,,,,3115,,,,
