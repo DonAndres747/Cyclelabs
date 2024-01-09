@@ -85,7 +85,8 @@ Scenario: Web Login
 
 Given I "navigate to WMS Main Screen in Web Browser"
 	Then I open $browser web browser
-	And I wait $wait_short seconds 
+	And I wait $wait_short seconds
+	And I maximize web browser
 	When I navigate to $web_ui in web browser
 
 When I "login to the WMS web screen"	
@@ -95,7 +96,7 @@ When I "login to the WMS web screen"
 	And I press keys "ENTER" in web browser
 	
 And I "check to make sure I've logged in to the correct warehouse for my test"
-	Once I see element "xPath://label[contains(text(),'Hello')]" in web browser
+	Once I see element "xPath://span[contains(text(),'Description')]" in web browser
 	And I assign "check_default_warehouse.msql" to variable "msql_file"
 	When I execute scenario "Perform MSQL Execution"
 	If I verify MOCA status is 510
@@ -235,7 +236,7 @@ When I "change Warehouse in Web"
 	And I click element $elt in web browser within $max_response seconds
 
 Then I "finished changing warehouses and make sure we are on main screen with Hello message"
-	Once I see element "xPath://label[contains(text(),'Hello')]" in web browser
+	Once I see element "xPath://span[contains(text(),'Description')]" in web browser
     
 @wip @public
 Scenario: Web Select Workstation

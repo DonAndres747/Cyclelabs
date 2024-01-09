@@ -306,12 +306,12 @@ Scenario: Web Open Inventory Screen
 #	None
 #############################################################
 
-Given I "Go to Search box and enter Inventory"
-	Then I assign "Inventory" to variable "wms_parent_menu"
+Given I "Go to Search box and enter ABB Inventory"
+	Then I assign "ABB Inventory" to variable "wms_parent_menu"
 	And I assign "Inventory" to variable "wms_screen_to_open"
 	When I execute scenario "Web Screen Search"
 	And I wait $wait_med seconds 
-	Once I see "To find inventory" in web browser
+	Once I see "Inventory" in web browser
 
 And I unassign variables "wms_parent_menu,wms_screen_to_open"
 

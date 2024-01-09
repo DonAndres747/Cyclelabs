@@ -1,0 +1,50 @@
+{
+  "additionalData" : {
+    "openTabs" : [ {
+      "filePath" : "C:\\Users\\julio.hernandez\\OneDrive - Netlogistik\\Documentos\\GitHub\\Cyclelabs\\Test Cases\\Base\\Inventory\\ABB INVENTORY\\BASE-INV-1060 Web Inventory Status Change.feature"
+    }, {
+      "filePath" : "C:\\Users\\julio.hernandez\\OneDrive - Netlogistik\\Documentos\\GitHub\\Cyclelabs\\Utilities\\Base\\Web\\Web Utilities.feature"
+    }, {
+      "filePath" : "C:\\Users\\julio.hernandez\\OneDrive - Netlogistik\\Documentos\\GitHub\\Cyclelabs\\Utilities\\Base\\Web\\Web Inventory Utilities.feature"
+    } ]
+  },
+  "settings" : {
+    "EmailUsername" : "",
+    "DatastoreUrl" : "",
+    "WriteCloudDatastore" : false,
+    "CustomChromeBrowserLocation" : "C:\\Users\\julio.hernandez",
+    "DatastoreName" : "",
+    "SenderEmailAddress" : "",
+    "StoredCredentials" : [ {
+      "credentialsName" : "KARLAMARTINEZ",
+      "username" : "KARLAMARTINEZ",
+      "password" : "Welcome1"
+    } ],
+    "SendEmailSummary" : false,
+    "CloseBrowserAfterScenario" : false,
+    "DatastorePassword" : "",
+    "WinAppDriverForceCloseLocalApp" : false,
+    "IEDriverLocation" : "C:\\Users\\julio.hernandez",
+    "EdgeDriverLocation" : "C:\\Users\\julio.hernandez",
+    "UseCustomChromeLocation" : false,
+    "CloudRefreshToken" : "",
+    "EmailHost" : "",
+    "CloseBrowserOnCycleExit" : false,
+    "WinAppDriverLocation" : "C:\\Program Files (x86)\\Windows Application Driver\\WinAppDriver.exe",
+    "EmailProtocol" : "SSL",
+    "WebScreenshots" : true,
+    "DatastoreUsername" : "",
+    "EmailPassword" : "",
+    "ProduceLocalReport" : false,
+    "IncludeStepsInGroupTestReports" : false,
+    "RecipientEmail" : "",
+    "ChromeDriverLocation" : "C:\\Users\\julio.hernandez\\OneDrive - Netlogistik\\Escritorio\\chromedriver-win64\\chromedriver.exe",
+    "KnownHostsLocation" : null,
+    "WriteToDatastore" : false,
+    "OutputDirectory" : "Output",
+    "EmailPort" : 0,
+    "DatastoreType" : "",
+    "DatastoreConnection" : "MOCA",
+    "ProduceLocalCsv" : false
+  }
+}

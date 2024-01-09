@@ -81,7 +81,7 @@ And I "cleanup the dataset"
 
 @BASE-INV-1060
 Scenario Outline: BASE-INV-1060 Web Inventory Status Change
-CSV Examples: Test Case Inputs/Samples/BASE-INV-1060.csv
+CSV Examples: Test Case Inputs/ABB Inputs/ABB-INV-02.csv
 
 Given I "execute pre-test scenario actions (including pre-validations)"
 	And I execute scenario "Begin Pre-Test Activities"
