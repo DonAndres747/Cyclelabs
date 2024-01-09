@@ -10,7 +10,7 @@
 # No part of this file may be copied, modified, propagated,
 # or distributed except as authorized by the license.
 ############################################################ 
-# Test Case: BASE-INV-1060 Web Inventory Status Change
+# Test Case: ABB-INV-02 Change Inventory Status
 #
 # Functional Area: Inventory
 # Author: NetLogistik
@@ -21,7 +21,7 @@
 # Description:
 # This test case will change the Inventory Status from the Web
 #
-# Input Source: Test Case Inputs/BASE-INV-1060.csv
+# Input Source: Test Case Inputs/ABB Inputs/ABB-INV-02.csv
 # Required Inputs:
 # 	stoloc - Location where the adjustment will take place. Must be a valid adjustable location in the system
 # 	lodnum - Load number being adjusted in. Can be a fabricated number. Used in Terminal/WEB and datasets processing
@@ -45,7 +45,7 @@
 # None
 #
 ############################################################ 
-Feature: ABB-INV-01 Web Inventory Status Change
+Feature: ABB-INV-02 Change Inventory Status
  
 Background:
 ############################################################
@@ -60,12 +60,12 @@ Given I "setup the environment"
 	Given I execute scenario "Inventory Adjust Imports"
 	Then I execute scenario "Web Environment Setup"
 
-	And I assign "BASE-INV-1060" to variable "test_case"
+	And I assign "ABB-INV-02" to variable "test_case"
 	When I execute scenario "Test Data Triggers"
 
 And I "load the dataset"	
-	#Then I assign "Inv_Terminal_Adjustment" to variable "dataset_directory"
-	#And I execute scenario "Perform MOCA Dataset"
+	Then I assign "Inv_Terminal_Adjustment" to variable "dataset_directory"
+	And I execute scenario "Perform MOCA Dataset"
  
 After Scenario: 
 #############################################################
@@ -79,8 +79,8 @@ And I "cleanup the dataset"
 	Then I assign "Inv_Terminal_Adjustment" to variable "cleanup_directory"
 	And I execute scenario "Perform MOCA Cleanup Script"
 
-@ABB-INV-01
-Scenario Outline: ABB-INV-01 Inventory Status Change
+@ABB-INV-02
+Scenario Outline: ABB-INV-02 Inventory Status Change
 CSV Examples: Test Case Inputs/ABB Inputs/ABB-INV-02.csv
 
 Given I "execute pre-test scenario actions (including pre-validations)"
