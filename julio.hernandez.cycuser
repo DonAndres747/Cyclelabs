@@ -1,11 +1,13 @@
 {
   "additionalData" : {
     "openTabs" : [ {
-      "filePath" : "C:\\Users\\julio.hernandez\\OneDrive - Netlogistik\\Documentos\\GitHub\\Cyclelabs\\Test Cases\\Base\\Inventory\\ABB INVENTORY\\BASE-INV-1060 Web Inventory Status Change.feature"
-    }, {
       "filePath" : "C:\\Users\\julio.hernandez\\OneDrive - Netlogistik\\Documentos\\GitHub\\Cyclelabs\\Utilities\\Base\\Web\\Web Utilities.feature"
     }, {
       "filePath" : "C:\\Users\\julio.hernandez\\OneDrive - Netlogistik\\Documentos\\GitHub\\Cyclelabs\\Utilities\\Base\\Web\\Web Inventory Utilities.feature"
+    }, {
+      "filePath" : "C:\\Users\\julio.hernandez\\OneDrive - Netlogistik\\Documentos\\GitHub\\Cyclelabs\\Test Cases\\ABB Test Cases\\Inventory\\ABB-INV-01 MODIFY INVENTORY ATTRIBUTES.feature"
+    }, {
+      "filePath" : "C:\\Users\\julio.hernandez\\OneDrive - Netlogistik\\Documentos\\GitHub\\Cyclelabs\\Test Cases\\ABB Test Cases\\Inventory\\ABB-INV-02 CHANGE INVENTORY STATUS.feature"
     } ]
   },
   "settings" : {

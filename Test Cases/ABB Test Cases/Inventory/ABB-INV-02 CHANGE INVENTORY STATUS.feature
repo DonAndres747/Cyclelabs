@@ -1,5 +1,5 @@
 ############################################################
-# Copyright 2020, Tryon Solutions, Inc.
+# Copyright 2024, Tryon Solutions, Inc.
 # All rights reserved.  Proprietary and confidential.
 #
 # This file is subject to the license terms found at 
@@ -13,7 +13,7 @@
 # Test Case: BASE-INV-1060 Web Inventory Status Change
 #
 # Functional Area: Inventory
-# Author: Tryon Solutions
+# Author: NetLogistik
 # Blue Yonder WMS Version: Consult Bundle Release Notes
 # Test Case Type: Regression
 # Blue Yonder Interfaces Interacted With: MOCA, WEB
@@ -45,7 +45,7 @@
 # None
 #
 ############################################################ 
-Feature: BASE-INV-1060 Web Inventory Status Change
+Feature: ABB-INV-01 Web Inventory Status Change
  
 Background:
 ############################################################
@@ -79,8 +79,8 @@ And I "cleanup the dataset"
 	Then I assign "Inv_Terminal_Adjustment" to variable "cleanup_directory"
 	And I execute scenario "Perform MOCA Cleanup Script"
 
-@BASE-INV-1060
-Scenario Outline: BASE-INV-1060 Web Inventory Status Change
+@ABB-INV-01
+Scenario Outline: ABB-INV-01 Inventory Status Change
 CSV Examples: Test Case Inputs/ABB Inputs/ABB-INV-02.csv
 
 Given I "execute pre-test scenario actions (including pre-validations)"
